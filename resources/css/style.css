@@ -1,0 +1,154 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica,sans-serif;
+  opacity:0.9;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+a {
+  color:seashell;
+
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/** HEADER STYLE **/
+
+header {
+
+  border-bottom: 1px solid seashell ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 69px;
+
+}
+
+.logo {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+
+}
+
+.logo img {
+  height:50px;
+
+}
+
+nav span {
+  margin-right: 10px;
+  text-decoration: underline;
+
+}
+
+/** END OF HEADER STYLE **/
+
+/** MISSION STYLE **/
+
+main {
+  margin: auto;
+  justify-content: center;
+  width: 1200px;
+
+}
+
+
+.mission {
+  background-image: url("../../resources/img/img-mission-background.jpg");
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 700px;
+  margin: 0 auto;
+
+}
+
+.headline {
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  background-color: black;
+}
+
+
+/** END OF MISSION STYLE **/
+
+/** FEATURED PRODUCTS **/
+
+.featured {
+  align-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 30px;
+
+}
+
+.inventory {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+width: 300px;
+margin: 10px 10px 10px 10px;
+
+}
+
+.product img {
+  height: 200px;
+  display: block;
+  margin: 0 0 10px 0;
+
+}
+
+/** END OF FEATURED PRODUCTS **/
+
+/** LOCATION **/
+
+.locations {
+  background-image: url("../../resources/img/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+
+}
+
+.location-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.location {
+  background-color: black;
+  margin: 15px 40px 0 0;
+  width: 300px;
+  opacity: 1;
+}
+
+/** END OF LOCATION **/
+
+footer {
+    background-color: black;
+    color:seashell;
+    font-family: Helvetica,sans-serif;
+    opacity:0.9;
+    text-align: left;
+    padding-left: 20px;
+  }
