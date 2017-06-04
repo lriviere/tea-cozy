@@ -23,6 +23,7 @@ h2, h3, h4 {
 header {
 
   border-bottom: 1px solid seashell ;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,7 +140,7 @@ margin: 10px 10px 10px 10px;
   background-color: black;
   margin: 15px 40px 0 0;
   width: 300px;
-  opacity: 1; 
+  opacity: 1;
 }
 
 /** END OF LOCATION **/
